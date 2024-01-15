@@ -324,6 +324,10 @@ img{
 
 .skills_sect{
   height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .skill_heading{
   color: orangered;
