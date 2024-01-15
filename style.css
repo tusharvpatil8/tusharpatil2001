@@ -696,3 +696,14 @@ img{
         margin: 1.5%;
     }
 }
+@media screen and (max-width: 768px) {
+    .my_skills table, .my_skills td {
+        width: 100%;
+        display: block;
+    }
+
+    .my_skills tr {
+        display: flex;
+        flex-direction: column;
+    }
+}
